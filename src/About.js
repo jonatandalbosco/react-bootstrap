@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from 'react' 
 export const About = () => (
   <div>
     <h2>Página Sobre</h2>
