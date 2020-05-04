@@ -18,16 +18,19 @@ const Styles = styled.div`
     color: #FFF;
   }
  }
+ .d-flex-by-me {
+   display: flex;
+ }
 `;
 
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/">Code Life</Navbar.Brand>
+      <Navbar.Brand href="/">Jonatan Developer</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Item>
+          <Nav.Item className="d-flex-by-me">
             <Nav.Link href="/">Inicio</Nav.Link>
             <Nav.Link href="/About">Sobre</Nav.Link>
             <Nav.Link href="/Contact">Contato</Nav.Link>
