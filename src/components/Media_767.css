@@ -1,0 +1,25 @@
+@media only screen and (max-width: 767px) {
+  .list-unstyled {
+    text-align: center;
+  }
+  .main-footer h4 {
+    text-align: center;
+  }
+  .footer-bottom {
+    justify-content: center;
+  }
+  .navbar {
+    padding: 10px !important;
+  }
+  .nav-link {
+    margin-left: 10px !important;
+  }
+  .d-flex-by-me {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: #fff !important;
+  }
+
+}

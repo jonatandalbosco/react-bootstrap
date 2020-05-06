@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+
+.main-footer { 
+  background-color: #222;
+  padding: 20px 0px;
+}
+.main-footer h4 {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin:  10px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: 1s;
+  cursor: pointer;
+}
+.main-footer h4:hover {
+  transition: 1s;
+  opacity: 0.7;
+}
+.list-unstyled li {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  opacity: 0.7;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 24px;
+}
+.list-unstyled li:hover {
+  color: #FFF !important;
+  opacity:1;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+.list-unstyled li:hover::after {
+  width:100%;
+  transition: width .5s;
+  text-align: center;
+} 
+.list-unstyled li::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #FFF;
+  transition: width .5s
+}
+.footer-bottom p {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.footer-bottom p:hover {
+  color: #FFF !important;
+  opacity:1;
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+.footer-bottom p:hover::after {
+  width:100%;
+  transition: width .5s;
+  text-align: center;
+} 
+.footer-bottom p::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #FFF;
+  transition: width .5s
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.container-footer { 
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

@@ -1,38 +1,20 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import styled from 'styled-components';
+import './Nav.css';
+import './Media_767.css';
 
-
-const Styles = styled.div`
- .navbar {
-   background-color: #222;
- }
-
- .navbar-brand, .navbar-nav .nav-link {
-   color: #bbb;
-
-
-
-
-  &:hover {
-    color: #FFF;
-  }
- }
- .d-flex-by-me {
-   display: flex;
- }
-`;
 
 export const NavigationBar = () => (
-  <Styles>
-    <Navbar expand="lg">
-      <Navbar.Brand href="/">Jonatan Developer</Navbar.Brand>
+  
+    <Navbar expand="lg" >
+      <Navbar.Brand href="/"><span className="animated fadeInRight">Jonatan Developer</span></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Item className="d-flex-by-me">
+          <Nav.Item className="d-flex-by-me animated fadeInRight" >
             <Nav.Link href="/">Inicio</Nav.Link>
             <Nav.Link href="/About">Sobre</Nav.Link>
+            <Nav.Link href="/Servicos">Servicos</Nav.Link>
             <Nav.Link href="/Contact">Contato</Nav.Link>
           </Nav.Item>
         </Nav>
@@ -40,5 +22,5 @@ export const NavigationBar = () => (
       </Navbar.Collapse>
 
     </Navbar>
-  </Styles>
+
 )
